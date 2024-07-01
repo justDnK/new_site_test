@@ -224,7 +224,6 @@ body {
   background-color: rgb(234, 234, 234);
   margin-top: 100px;
   display: flex;
-  margin-bottom: 100px;
 }
 
 .block_11 .block_text {
@@ -406,4 +405,301 @@ body {
   .block_11 .image {
     height: 340px;
   }
+}
+
+.block_line {
+  height: 100px;
+  width: 100%;
+  background-color: rgb(234, 234, 234);
+}
+
+.block_12 {
+  width: 100%;
+  height: 800px;
+  background-color: rgb(234, 234, 234);
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+}
+
+.mini_block {
+  width: 680px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.block_12 .main_text {
+  width: 680px;
+  height: 70px;
+  /* background-color: deeppink; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.block_12 .main_text h1 {
+  font-size: 55px;
+  font-weight: 400;
+  display: block;
+}
+
+.block_12 .line_yellow {
+  width: 450px;
+  height: 15px;
+  background-color: orange;
+  margin-top: 15px;
+  display: flex;
+}
+
+.block_12 .box_textes {
+  width: 1400px;
+  height: 450px;
+  /* background-color: goldenrod;  */
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.block_12 .box_textes .box {
+  height: 450px;
+  width: 400px;
+  /* background-color: green; */
+}
+
+.block_12 .box_textes .block_text_1 {
+  width: 400px;
+  height: 200px;
+  /* background-color: red; */
+}
+
+.block_12 .box_textes .box .block_text_1 p {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.block_12 .box_textes .image {
+  width: 400px;
+  height: 250px;
+  /* background-color: blue; */
+  background-image: url(photos_by_about_us/modern-company-teem-coworking-using-graphs-and-laptop-in-office.jpg);
+  background-size: cover;
+  }
+
+
+.block_12 .box_textes .image_2 {
+  width: 400px;
+  height: 250px;
+  /* background-color: blue; */
+  background-image: url(photos_by_about_us/factory.jpg);
+  background-size: cover;
+}
+
+.block_12 .box_textes .image_3 {
+  width: 400px;
+  height: 250px;
+  /* background-color: blue; */
+  background-image: url(photos_by_about_us/photo_hands.jpg);
+  background-size: cover;
+}
+
+.black_line {
+  width: 100%;
+  height: 1px;
+  background-color: black;
+}
+
+@media(max-width: 1100px) {
+  .block_12 {
+    height: 850px;
+  }
+
+  .block_12 .box_textes {
+    width: 1000px;
+    height: 550px;
+  }
+
+  .block_12 .box_textes .box {
+    height: 550px;
+    width: 270px;
+    /* background-color: green;  */
+  }
+
+  .block_12 .box_textes .box .block_text_1 {
+    height: 300px;
+    width: 270px;
+  }
+
+  .block_12 .box_textes .image {
+    width: 270px;
+    height: 200px;
+  }
+
+  .block_12 .box_textes .image_2 {
+    width: 270px;
+    height: 200px;
+  }
+
+  .block_12 .box_textes .image_3 {
+    width: 270px;
+    height: 200px;
+  }
+
+}
+
+@media(max-width: 1000px) {
+  .block_12 {
+    align-items: center;
+  }
+
+  .block_12 .box_textes {
+    width: 100%;
+  }
+}
+
+.none {
+  display: none;
+}
+
+
+@media(max-width: 820px) {
+  .block_12 {
+    height: 1700px;
+  }
+
+  .block_12 .box_textes {
+    width: 100%;
+    height: 1350px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .block_12 .box_textes .box {
+    height: 420px;
+    width: 350px;
+    /* background-color: green;  */
+  }
+
+  .block_12 .box_textes .box .block_text_1 {
+    height: 220px;
+    width: 350px;
+  }
+
+  .block_12 .box_textes .image {
+    width: 350px;
+    height: 200px;
+  }
+
+  .block_12 .box_textes .image_2 {
+    width: 350px;
+    height: 200px;
+  }
+
+  .block_12 .box_textes .image_3 {
+    width: 350px;
+    height: 200px;
+  }
+}
+
+@media(max-width: 680px) {
+  .mini_block {
+      width: 400px;
+      align-items: first baseline;
+  }
+
+  .block_12 .main_text {
+    width: 400px;
+    height: 110px;
+    /* background-color: deeppink; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .block_12 .main_text h1 {
+    font-size: 45px;
+    font-weight: 400;
+    display: block;
+  } 
+
+  .block_12 .line_yellow {
+    width: 350px;
+    height: 15px;
+    background-color: orange;
+    margin-top: 15px;
+    display: flex;
+  }
+}
+
+@media(max-width: 400px) {
+  .mini_block {
+    width: 300px;
+    align-items: first baseline;
+}
+
+.block_12 .main_text {
+  width: 300px;
+  height: 90px;
+  /* background-color: deeppink; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.block_12 .main_text h1 {
+  font-size: 35px;
+  font-weight: 400;
+  display: block;
+} 
+
+.block_12 .line_yellow {
+  width: 250px;
+  height: 15px;
+  background-color: orange;
+  margin-top: 15px;
+  display: flex;
+}
+
+.block_12 {
+  height: 1800px;
+}
+
+.block_12 .box_textes {
+  width: 100%;
+  height: 1450px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.block_12 .box_textes .box {
+  height: 450px;
+  width: 300px;
+  /* background-color: green;  */
+  align-items: center;
+}
+
+.block_12 .box_textes .box .block_text_1 {
+  height: 230px;
+  width: 300px;
+}
+
+.block_12 .box_textes .image {
+  width: 300px;
+  height: 200px;
+}
+
+.block_12 .box_textes .image_2 {
+  width: 300px;
+  height: 200px;
+}
+
+.block_12 .box_textes .image_3 {
+  width: 300px;
+  height: 200px;
+}
 }
