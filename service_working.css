@@ -484,6 +484,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 10px;
   }
   
   .block_info .block_1 .block_father .main_text h1 {
@@ -499,6 +500,7 @@ body {
     height: 10px;
     background-color: orange;
     margin-bottom: 30px;
+    margin-left: 10px;
   }
   
   .block_info .block_1 .block_father .center_text_1 {
@@ -506,6 +508,7 @@ body {
     height: 330px;
     /* background-color: rgb(13, 134, 70); */
     margin-bottom: 50px;
+    margin-left: 10px;
   }
   
   .block_info .block_1 .block_father .center_text_1 p {
