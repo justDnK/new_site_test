@@ -645,6 +645,7 @@ body {
   background-color: grey;
   height: 1px;
   width: 100%;
+  display: none;
 }
 
 @media(max-width: 1127px) {
@@ -691,18 +692,18 @@ body {
 
   .block_projects .block_main .block_main_text {
     width: 100%;
-    height: 15%;
+    height: 18%;
     /* background-color: rgb(16, 16, 194); */
     padding-top: 3%;
     margin-bottom: 5%;
-}
+  }
 
 .block_projects .block_main .block_main_text .text_high h1 {
   line-height: 45px;
 }
 
   .line_projects_1 {
-    height: 42.5%;
+    height: 38.5%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -710,7 +711,7 @@ body {
   }
 
   .line_projects_2 {
-    height: 40%;
+    height: 38.5%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
