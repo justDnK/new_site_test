@@ -14,18 +14,18 @@
 }
 
 .block_pr_1 .block_textes .main_text {
-    width: 70%;
-    height: 16%;
+    width: 500px;
+    height: 160px;
     /* background-color: pink; */
     margin-left: 5%;
-    margin-top: 5%;
+    margin-top: 50px;
 }
 
 .block_pr_1 .block_textes .text_1 {
-    width: 50%;
-    height: 6%;
+    width: 375px;
+    height: 65px;
     /* background-color: rgb(116, 219, 116); */
-    margin-top: 5%;
+    margin-top: 20px;
     margin-left: 5%;
 }
 
@@ -34,10 +34,10 @@
 }
 
 .block_pr_1 .block_textes .text_2 {
-    height: 8%;
-    width: 50%;
+    height: 90px;
+    width: 375px;
     /* background-color: rgb(124, 235, 198); */
-    margin-top: 4%;
+    margin-top: 20px;
     margin-left: 5%;
 }
 
@@ -46,10 +46,10 @@
 }
 
 .block_pr_1 .block_textes .text_3 {
-    height: 8%;
-    width: 50%;
+    height: 90px;
+    width: 375px;
     /* background-color: rgb(101, 101, 238); */
-    margin-top: 4%;
+    margin-top: 20px;
     margin-left: 5%;
 }
 
@@ -58,10 +58,10 @@
 }
 
 .block_pr_1 .block_textes .text_4 {
-    height: 8%;
-    width: 50%;
+    height: 120px;
+    width: 375px;
     /* background-color: rgb(233, 134, 134); */
-    margin-top: 4%;
+    margin-top: 20px;
     margin-left: 5%;
 }
 
@@ -70,10 +70,10 @@
 }
 
 .block_pr_1 .block_textes .text_5 {
-    height: 18%;
-    width: 50%;
+    height: 140px;
+    width: 375px;
     /* background-color: rgb(242, 116, 53); */
-    margin-top: 4%;
+    margin-top: 20px;
     margin-left: 5%;
 }
 
@@ -82,10 +82,10 @@
 }
 
 .block_pr_1 .block_textes .text_6 {
-    height: 8%;
-    width: 50%;
+    height: 90px;
+    width: 375px;
     /* background-color: rgb(216, 239, 70); */
-    margin-top: 4%;
+    margin-top: 20px;
     margin-left: 5%;
 }
 
@@ -128,12 +128,16 @@
         font-size: 26px;
     }
 
+    .block_pr_1 .block_textes .text_1 {
+        height: 60px;
+    }
+
     .block_pr_1 .block_textes .text_1 p {
         font-size: 20px;
     }
 
     .block_pr_1 .block_textes .text_2 {
-        margin-top: 1%;
+        margin-top: 20px;
     }
 
     .block_pr_1 .block_textes .text_2 p {
@@ -144,17 +148,25 @@
         font-size: 20px;
     }
 
+    .block_pr_1 .block_textes .text_4 {
+        height: 90px;
+    }
+
     .block_pr_1 .block_textes .text_4 p {
         font-size: 20px;
     }
 
     .block_pr_1 .block_textes .text_5 {
-        margin-top: 1%;
+        margin-top: 20px;
         /* background-color: red; */
     }
 
     .block_pr_1 .block_textes .text_5 p {
         font-size: 20px;
+    }
+    
+    .block_pr_1 .block_textes .text_6 {
+        height: 70px;
     }
 
     .block_pr_1 .block_textes .text_6 p {
@@ -164,10 +176,16 @@
 
 @media(max-width: 1114px) {
     .block_pr_1 .block_textes .text_6 {
-        margin-top: 8%;
+        margin-top: 20px;
     }
 }
 
+@media(max-width: 1090px) {
+    .block_pr_1 .block_textes .main_text {
+        width: 375px;
+    }
+}
+/* 
 @media(max-width: 1038px) {
     .block_pr_1 .block_textes .text_3 {
         margin-top: 6%;
@@ -184,11 +202,10 @@
     .block_pr_1 .block_textes .text_6 {
         margin-top: 17%;
     }
-}
+} */
 
-@media(max-width: 977px) {
+/* @media(max-width: 977px) {
     .block_pr_1 .block_textes .text_5 {
-        /* background-color: rgb(248, 46, 46); */
         width: 55%;
         margin-top: 3%;
     }
@@ -196,16 +213,16 @@
     .block_pr_1 .block_textes .text_6 {
         margin-top: 10%;
     }
-}
+} */
 
-@media(max-width: 958px) {
+/* @media(max-width: 958px) {
     .block_pr_1 .block_textes .text_3 {
         margin-top: 6%;
         width: 55%;
     }
-}
+} */
 
-@media(max-width: 944px)  {
+/* @media(max-width: 944px)  {
     .block_pr_1 .block_textes .text_1 {
         width: 54%;
     }
@@ -225,7 +242,7 @@
     .block_pr_1 .block_textes .text_4 {
         margin-top: 7%;
     }
-}
+} */
 
 @media(max-width: 900px) {
     /* textes 150 */
@@ -291,7 +308,7 @@
         /* background-color: rgb(222, 52, 92); */
         margin-top: 0%;
         width: 300px;
-        height: 80px;
+        height: 100px;
         margin-bottom: 30px;
     }
 
@@ -299,7 +316,7 @@
         /* background-color: rgb(36, 182, 28); */
         margin-top: 0%;
         width: 300px;
-        height: 195px;
+        height: 125px;
         margin-bottom: 30px;
     }
 
