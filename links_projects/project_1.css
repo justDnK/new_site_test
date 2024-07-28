@@ -232,14 +232,14 @@
 
     .block_pr_1 {
         /* background-color: rgb(67, 155, 67); */
-        height: 1580px;
+        height: 1570px;
         flex-direction: column;
         align-items: center;
     }
 
     .block_pr_1 .block_textes {
         /* background-color: rgb(223, 104, 104); */
-        height: 1000px;
+        height: 890px;
         width: 400px;
         margin-bottom: 50px;
     }
