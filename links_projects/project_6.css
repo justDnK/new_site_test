@@ -255,14 +255,14 @@
 
     .block_pr_1 {
         /* background-color: rgb(67, 155, 67); */
-        height: 1500px;
+        height: 1520px;
         flex-direction: column;
         align-items: center;
     }
 
     .block_pr_1 .block_textes {
         /* background-color: rgb(223, 104, 104); */
-        height: 1000px;
+        height: 1020px;
         width: 400px;
     }
 
