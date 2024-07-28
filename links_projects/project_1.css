@@ -232,7 +232,7 @@
 
     .block_pr_1 {
         /* background-color: rgb(67, 155, 67); */
-        height: 1500px;
+        height: 1580px;
         flex-direction: column;
         align-items: center;
     }
@@ -241,6 +241,7 @@
         /* background-color: rgb(223, 104, 104); */
         height: 1000px;
         width: 400px;
+        margin-bottom: 50px;
     }
 
     .block_pr_1 .line {
