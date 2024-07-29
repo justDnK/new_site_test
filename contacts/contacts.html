@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contacs</title>
+    <link rel="stylesheet" href="contacts.css">
+    <style>
+        INPUT[type="text"] {
+        /* background-color: navy; */
+        color: #ffe;
+        font-size: 18px;
+   }
+
+   input[type="submit"] {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+   }
+
+   INPUT[type="email"] {
+        /* background-color: navy; */
+        color: #ffe;
+        font-size: 18px;
+   }
+
+   textarea[type="text"] {
+        /* background-color: navy; */
+        color: #ffe;
+        font-size: 18px;
+   }   
+    </style>
+</head>
+<body>
+    <div class="menu ">
+        <div class="block">
+            <!-- head -->
+            <div class="logo">
+                
+            </div>
+        
+            <!-- menu -->
+            <div class="nav">
+                <div class="mini_menu">
+                    <a href="main.html">
+                        <div class="link_menu_1">
+                            <!-- деятельность -->
+                            <p>Главная</p> 
+                        </div>
+                    </a>
+                    <a href="about_company.html">
+                        <div class="link_menu_2">
+                            <p>О компании</p>
+                        </div>
+                    </a>
+
+                    <a href="projects.html">
+                        <div class="link_menu_3">
+                            <p>Наши проекты</p>
+                        </div>
+                    </a>
+
+                    <a href="">
+                        <div class="link_menu_4">
+                            <p class="main_link">Контакты</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        
+            <!-- burger -->
+            <div class="burger">
+                <span></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="main_container">
+        <div class="block_textes">
+            <div class="main_text element-animation">
+                <h1>Наши контакты</h1>
+            </div>
+
+            <div class="mini_line"></div>
+
+            <div class="block_name element-animation">
+                <p>МАКС ДОРСТРОЙСЕРВИС-21</p>
+            </div>
+
+            <div class="adress_main element-animation">
+                <p>Наш адресс:</p>
+            </div>
+
+            <div class="adress element-animation">
+                <p>ул. Бекмаханова 2/21, Алматы, Казахстан.</p>
+            </div>
+
+            <div class="text_form element-animation">
+                <p>Напишите нам, чтобы обсудить наш новый проект. Мы ответим вам в ближайшее время.</p>
+            </div>
+
+            <div class="form">
+                <form action="https://api.web3forms.com/submit" method="POST">
+
+                    <input type="hidden" name="access_key" value="6af6f755-2fd5-470f-8032-91350c960c68">
+
+                    <span>Ваше имя:</span>
+                    <input type="text" name="name" required >
+
+                    <span>Ваш email:</span>
+                    <input type="email" name="email" required >
+
+                    <span>Оставьте нам сообщение:</span>
+                    <textarea name="message" id="" class="textarea"></textarea>
+
+                    <input type="submit" value="Отправить" name="send" class="btn" >
+                </form>
+            </div>
+        </div>
+
+        <div class="line"></div>
+
+        <div class="block_photo"></div>
+    </div>
+
+    <div class="block_space">
+        <div class="block_1"></div>
+
+        <div class="line"></div>
+
+        <div class="block_2"></div>
+    </div>
+
+    <div class="footer">
+        <div class="part_1">
+            <div class="block_en">
+                <div class="block_logo element-animation">
+                    <div class="logo">
+                    
+                    </div>
+    
+                    <div class="logo_text">
+                        <h1>МАКС ДОРСТРОЙСЕРВИС-21</h1>
+                    </div>
+                </div>
+    
+                <div class="text element-animation">
+                    <h1>"Строим дороги к будущему."</h1>
+
+                    <a href="">
+                        <div class="block_3 element-animation">
+                            <p>Подробнее</p>
+                        </div>
+                    </a>
+                </div>
+    
+              
+            </div>
+        </div>
+
+        <div class="line"></div>
+
+        <div class="part_2">
+            <div class="main_block">
+                <div class="block_1 element-animation">
+                    <h1>Наши контакты:</h1>
+                    <h3>Телефон: 8(701)559-99-79</h3>
+                </div>
+    
+                <div class="block_2 element-animation">
+                    <h1>Наш адрес:</h1>
+                    <h3>undefined</h3>
+                </div>
+            </div>
+        </div>
+   </div>
+
+    <script src="../mechanik.js"></script>
+</body>
+</html>
