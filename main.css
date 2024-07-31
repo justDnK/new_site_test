@@ -1268,11 +1268,13 @@ body {
   font-size: 28px;
   line-height: 55px;
   font-weight: 400;
+  margin-bottom: 20px;
 }
 
 .footer .part_2 .block_1 h3 {
   color: white;
   font-weight: 400;
+  margin-bottom: 20px;
 }
 
 .footer .part_2 .block_2 {
@@ -1370,3 +1372,4 @@ body {
     margin-top: 50px;
   }
 }
+
